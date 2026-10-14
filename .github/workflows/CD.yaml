@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "hello world"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "hello world"
+    
